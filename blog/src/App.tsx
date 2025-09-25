@@ -1,5 +1,5 @@
-import React from 'react'
 import Posts from './components/Posts'
+import Register from './components/Register'
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
           </ul>
         </nav>
       </header>
+      <Register />
       <Posts />
     </div>
   )
